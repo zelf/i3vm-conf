@@ -133,7 +133,7 @@ for_window [class="Spotify"] move to workspace $workspace9
 assign [class="jetbrains-phpstorm"] $workspace3
 assign [class="Firefox"] $workspace1
 assign [class="Franz"] $workspace10
-assign [class="Thunderbird"] $workspace8
+assign [class="Evolution"] $workspace8
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -215,4 +215,4 @@ exec sh /home/sylvain/PhpStorm-172.3968.35/bin/phpstorm.sh
 exec firefox
 exec /home/sylvain/Franz/Franz
 exec compton -f
-exec thunderbird
+exec evolution
